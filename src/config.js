@@ -3,13 +3,13 @@
 
 export const config = {
   // Webhook para iniciar el bot en una reunión
-  INIT_BOT_WEBHOOK: 'https://carlosolivares.app.n8n.cloud/webhook/start-recall-bot',
+  INIT_BOT_WEBHOOK: 'https://ceordev.app.n8n.cloud/webhook/start-recall-bot',
   
   // Webhook para crear tickets aprobados en Jira
-  CREATE_TICKETS_WEBHOOK: 'https://carlosolivares.app.n8n.cloud/webhook/approved-tickets',
+  CREATE_TICKETS_WEBHOOK: 'https://ceordev.app.n8n.cloud/webhook/approved-tickets',
   
   // Webhook para obtener sugerencias de tickets (WF5)
-  GET_SUGGESTIONS_WEBHOOK: 'https://carlosolivares.app.n8n.cloud/webhook/get-suggestions',
+  GET_SUGGESTIONS_WEBHOOK: 'https://ceordev.app.n8n.cloud/webhook/get-suggestions',
   
   // Configuración de polling
   POLLING_INTERVAL: 8000, // 8 segundos entre cada consulta
